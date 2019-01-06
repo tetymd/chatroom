@@ -1,9 +1,15 @@
 language: node_js
 node_js:
   - "10"
+env:
+  - TRAVIS_BUILD_DIR=./client/
 dist: trusty
 sudo: false
+before_install:
+  - yarn global install
 cache: yarn
+script:
+  - vue build
 notifications:
   email:
     on_success: never
