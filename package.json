@@ -1,0 +1,10 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tetsuya Yamada <yamada.tetsuya258@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^3.2.3"
+  }
+}
