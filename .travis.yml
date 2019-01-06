@@ -9,6 +9,8 @@ before_install:
   - yarn install
 cache: yarn
 script:
+  - ls
+  - ls node_modules/@vue
   - ./node_modules/@vue/cli-service/bin/vue-cli-service.js build
 notifications:
   email:
