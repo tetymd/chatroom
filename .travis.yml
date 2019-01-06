@@ -6,7 +6,7 @@ env:
 dist: trusty
 sudo: false
 before_install:
-  - yarn global install
+  - yarn install
 cache: yarn
 script:
   - vue build
