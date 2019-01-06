@@ -1,7 +1,5 @@
 <template>
-  <div class="room">
-    <Room/>
-  </div>
+  <Room/>
 </template>
 
 <script>
