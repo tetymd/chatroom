@@ -7,10 +7,9 @@ dist: trusty
 sudo: false
 before_install:
   - yarn install
-  - yarn global add @vue/cli-service-global
 cache: yarn
 script:
-  - vue build
+  - ./node_modules/@vue/cli-service/bin/vue-cli-service.js build
 notifications:
   email:
     on_success: never
