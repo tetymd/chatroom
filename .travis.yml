@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "10"
+dist: trusty
+sudo: false
+cache: yarn
+script:
+  - cd client
+  - yarn install
+  - ls node_modules/@vue
+  - ./node_modules/@vue/cli-service/bin/vue-cli-service.js build
+notifications:
+  email:
+    on_success: never
