@@ -1,15 +1,12 @@
 language: node_js
 node_js:
   - "10"
-env:
-  - TRAVIS_BUILD_DIR=./client/
 dist: trusty
 sudo: false
-before_install:
-  - yarn install
 cache: yarn
 script:
   - cd client
+  - yarn install
   - ls node_modules/@vue
   - ./node_modules/@vue/cli-service/bin/vue-cli-service.js build
 notifications:
