@@ -5,6 +5,8 @@
   "author": "Tetsuya Yamada <yamada.tetsuya258@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@vue/cli": "^3.2.3"
+    "@vue/cli": "^3.2.3",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
   }
 }
