@@ -7,7 +7,7 @@ dist: trusty
 sudo: false
 before_install:
   - yarn install
-  - yarn add @vue/cli
+  - yarn global add @vue/cli-service-global
 cache: yarn
 script:
   - vue build
